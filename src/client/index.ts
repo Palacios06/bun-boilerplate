@@ -1,10 +1,7 @@
-
-console.log('Hello from client!');
-
 setImmediate(() => {
     emitNet('helloserver');
-});
-
-onNet('helloclient', (message: string) => {
+  });
+  
+  onNet('helloclient', message => {
     console.log(`The server replied: ${message}`);
-});
+  });

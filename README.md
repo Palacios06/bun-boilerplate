@@ -1,4 +1,4 @@
-# src
+# Typescript Bun Boilerplate
 
 To install dependencies:
 
