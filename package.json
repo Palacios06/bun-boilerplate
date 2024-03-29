@@ -3,7 +3,8 @@
   "module": "index",
   "type": "module",
   "scripts": {
-    "build": "bun run build.ts"
+    "build": "bun run build.ts",
+    "watch": "IS_WATCH_MODE=1 bun run build.ts"
   },
   "dependencies": {
     "@citizenfx/client": "^2.0.7752-1",
