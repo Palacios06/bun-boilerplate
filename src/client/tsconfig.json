@@ -15,9 +15,9 @@
 
     /* Linting */
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["@types/node", "bun-types"],
+    "types": ["@citizenfx/client", "@types/node"],
   }
 }
